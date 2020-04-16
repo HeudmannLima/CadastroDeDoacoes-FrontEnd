@@ -1,0 +1,33 @@
+.logon-container {
+  width: 100%;
+  max-width: 1120px;
+  height: 100vh; /* para ocupar a altura toda, centralizando o conteudo */
+  margin: 0 auto; /* auto deixa o conteudo centralizado na tela */
+
+  display: flex; /* padrão row, um ao lado do outro */
+  align-items: center; /* alinha td eixo Y vertical */
+  justify-content: space-evenly; /* alinha td eixo x horizontal */
+}
+
+.logon-container section.form {
+  width: 100%;
+  max-width: 350px;
+  margin-right: 30px; /* distancia a direita do form pra Imglogo*/
+}
+
+.logon-container section.form form {
+  margin-top: 100px;
+}
+
+.logon-container section.form form h1 {
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+
+/* Como teremos Inputs e Botões também em outras telas e com mes
+  mesmo padrão, colocaremo a estilização destes nos styles global.
+*/
+
+/* O style do LINK com o ícone fica em Global, pois em Register vai usar
+  formato igual.
+*/ 
